@@ -15,7 +15,7 @@ This lab will serve as the foundation for future projects such as:
 
 ## 🏗 Lab Architecture
 
-The lab environment includes:
+The lab environment includes
 
 - **Windows Server 2019** (Domain Controller + AD Services)
 - **Windows 10 Client** (Domain-joined machine)
