@@ -59,7 +59,7 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 
 ---
 
-## 📜 Certifications (Optional)
+## 📜 Certifications
 
 - Google Cybersecurity Professional Certificate 
 - CCNA Networking Labs *(self-practice)*  
