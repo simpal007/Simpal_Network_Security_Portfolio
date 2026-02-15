@@ -68,7 +68,7 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 
 ## 📫 Contact
 
-- LinkedIn: [*Add your LinkedIn profile link here*](https://www.linkedin.com/in/simpal-kumari-9531261b6/)
+- LinkedIn: https://www.linkedin.com/in/simpal-kumari-9531261b6/
 - GitHub: https://github.com/simpal007
 
 ---
