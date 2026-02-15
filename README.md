@@ -61,14 +61,14 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 
 ## 📜 Certifications (Optional)
 
-- Google Cybersecurity Professional Certificate *(in progress)*  
+- Google Cybersecurity Professional Certificate 
 - CCNA Networking Labs *(self-practice)*  
 
 ---
 
 ## 📫 Contact
 
-- LinkedIn: *Add your LinkedIn profile link here*
+- LinkedIn: [*Add your LinkedIn profile link here*](https://www.linkedin.com/in/simpal-kumari-9531261b6/)
 - GitHub: https://github.com/simpal007
 
 ---
