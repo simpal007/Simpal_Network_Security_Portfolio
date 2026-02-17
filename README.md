@@ -37,7 +37,7 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 
 | Project | Description |
 |--------|-------------|
-| **01. Enterprise Network Lab** | Built a realistic enterprise lab with Windows Server, Client, Kali, pfSense, and SIEM |
+| **01. Enterprise Network Lab** | Built a realistic enterprise lab with Windows Server, Client, Kali, pfSense/OPNsense, and SIEM |
 | **02. Firewall Hardening (pfSense/OPNsense)** | Designed firewall rules to block attacks and restrict traffic |
 | **03. IDS Detection Lab (Snort)** | Configured IDS alerts for scans, brute force, and suspicious traffic |
 | **04. Wireshark Threat Analysis** | Investigated malicious network traffic using PCAP analysis |
