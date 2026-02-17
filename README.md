@@ -24,7 +24,7 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 ## 🔧 Skills Demonstrated
 
 - Network Security Monitoring & Traffic Analysis  
-- Firewall Configuration & Rule Hardening (pfSense)  
+- Firewall Configuration & Rule Hardening (pfSense/OPNsense)  
 - Intrusion Detection & Alerting (Snort / Suricata)  
 - Packet-Level Investigation (Wireshark, TCPDump)  
 - Network Attack Simulation & Response  
@@ -38,7 +38,7 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 | Project | Description |
 |--------|-------------|
 | **01. Enterprise Network Lab** | Built a realistic enterprise lab with Windows Server, Client, Kali, pfSense, and SIEM |
-| **02. Firewall Hardening (pfSense)** | Designed firewall rules to block attacks and restrict traffic |
+| **02. Firewall Hardening (pfSense/OPNsense)** | Designed firewall rules to block attacks and restrict traffic |
 | **03. IDS Detection Lab (Snort)** | Configured IDS alerts for scans, brute force, and suspicious traffic |
 | **04. Wireshark Threat Analysis** | Investigated malicious network traffic using PCAP analysis |
 | **05. VPN Secure Remote Access** | Implemented OpenVPN/IPSec secure connectivity |
@@ -48,7 +48,7 @@ My goal is to work as a **Network Security Engineer**, securing enterprise netwo
 
 ## 🛠 Tools & Technologies
 
-- pfSense Firewall  
+- pfSense/OPNsense Firewall  
 - Wireshark  
 - Snort / Suricata  
 - Splunk SIEM  
