@@ -1,1 +1,239 @@
+# Firewall Hardening Lab using pfSense 🔥🛡️
 
+## 📌 Project Overview
+
+This project demonstrates the implementation of firewall hardening techniques using pfSense in a virtual enterprise network environment. The objective is to secure network communications, enforce access control policies, monitor network traffic, and validate security controls through attack simulations.
+
+The lab simulates a small enterprise network where firewall rules are configured to restrict unauthorized access and reduce the attack surface.
+
+---
+
+## 🎯 Objectives
+
+* Configure and manage a pfSense firewall
+* Implement network access control policies
+* Restrict unnecessary services and ports
+* Monitor and analyze firewall logs
+* Simulate attacks and validate firewall effectiveness
+* Gain hands-on experience with enterprise firewall administration
+
+---
+
+## 🏗️ Lab Architecture
+
+```text
+                 Internet
+                     |
+               pfSense Firewall
+                     |
+        --------------------------------
+        |                              |
+   Windows Client                 Kali Linux
+   192.168.1.20                  192.168.1.30
+```
+
+---
+
+## 🌐 Network Configuration
+
+| Device           | Role                         | IP Address   |
+| ---------------- | ---------------------------- | ------------ |
+| pfSense Firewall | Gateway & Security Appliance | 192.168.1.1  |
+| Windows Client   | Target System                | 192.168.1.20 |
+| Kali Linux       | Attacker Machine             | 192.168.1.30 |
+
+---
+
+## 🛠️ Technologies Used
+
+* VirtualBox
+* pfSense Firewall
+* Kali Linux
+* Windows 10
+* Nmap
+* Wireshark
+
+---
+
+## 🔒 Firewall Hardening Activities
+
+### 1. ICMP Blocking
+
+Configured firewall rules to block ICMP traffic from the attacker machine.
+
+**Purpose:**
+
+* Prevent host discovery
+* Reduce reconnaissance opportunities
+
+**Validation:**
+
+```bash
+ping 192.168.1.20
+```
+
+---
+
+### 2. RDP Protection
+
+Blocked Remote Desktop Protocol (TCP 3389) access from unauthorized systems.
+
+**Purpose:**
+
+* Prevent remote access attempts
+* Reduce exposure to brute-force attacks
+
+**Validation:**
+
+```bash
+nmap -p 3389 192.168.1.20
+```
+
+---
+
+### 3. SMB Protection
+
+Blocked SMB traffic (TCP 445).
+
+**Purpose:**
+
+* Protect file-sharing services
+* Mitigate ransomware and lateral movement risks
+
+**Validation:**
+
+```bash
+nmap -p 445 192.168.1.20
+```
+
+---
+
+### 4. Web Traffic Control
+
+Configured rules to allow only essential web traffic.
+
+Allowed:
+
+* TCP 80 (HTTP)
+* TCP 443 (HTTPS)
+
+Blocked:
+
+* Unnecessary inbound and outbound services
+
+---
+
+### 5. Logging and Monitoring
+
+Enabled firewall logging for all security-related rules.
+
+Monitored:
+
+* Blocked connections
+* Unauthorized access attempts
+* Port scanning activity
+
+Location:
+
+```text
+Status → System Logs → Firewall
+```
+
+---
+
+## 🧪 Security Testing
+
+### Network Discovery
+
+```bash
+nmap -sn 192.168.1.0/24
+```
+
+### Service Enumeration
+
+```bash
+nmap -sV 192.168.1.20
+```
+
+### Aggressive Scan
+
+```bash
+nmap -A 192.168.1.20
+```
+
+The firewall logs were reviewed to verify successful detection and blocking of unauthorized traffic.
+
+---
+
+## 📸 Evidence
+
+The following evidence was collected during the project:
+
+* pfSense Dashboard
+* Firewall Rule Configuration
+* ICMP Blocking Results
+* RDP Blocking Results
+* SMB Blocking Results
+* Firewall Logs
+* Nmap Scan Outputs
+
+Screenshots are available in the `screenshots/` directory.
+
+---
+
+## 📂 Project Structure
+
+```text
+Firewall-Hardening-Lab/
+│
+├── screenshots/
+├── configs/
+├── reports/
+├── README.md
+```
+
+---
+
+## 🚀 Key Skills Demonstrated
+
+* Firewall Administration
+* Network Security
+* Access Control Management
+* Traffic Monitoring
+* Security Validation
+* Vulnerability Mitigation
+* Network Reconnaissance Detection
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* Deploying and configuring pfSense
+* Implementing firewall security policies
+* Hardening network services
+* Monitoring and analyzing firewall logs
+* Detecting reconnaissance activities
+* Applying enterprise network security principles
+
+---
+
+## 🔮 Future Enhancements
+
+* VLAN Segmentation
+* Snort IDS/IPS Integration
+* Splunk SIEM Integration
+* VPN Configuration
+* Active Directory Integration
+* Incident Response Playbooks
+
+---
+
+## 👩‍💻 Author
+
+**Natasha**
+
+Cybersecurity Enthusiast | Network Security Engineer Aspirant
+
+Focused on Network Security, Defensive Security, Firewall Management, SIEM Monitoring, and Security Operations.
